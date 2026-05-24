@@ -1,13 +1,18 @@
 # RABiTPy 复现项目
+## 小组基本信息
+* 小组名称：污水处理与资源化课题组
+* 小组成员：@Ljy-cell429 @Mei0416 @qiaoling-X @yu-jiangjinag
+* 项目名称：RABiTPy项目复现
 
-本仓库用于复现 Lund et al. (2025) 论文 "Genetic compatibility and ecological connectivity drive the dissemination of antibiotic resistance genes" 中的关键结果，包括主图 (Fig2-Fig5) 和补充图。
+## 项目内容
+
+该论文发表在 2025 年的 《BMC Bioinformatics》 杂志上的《RABiTPy: an open-source Python software for rapid, AI-powered bacterial tracking and analysis》，其原始数据和分析代码均在 GitHub 上发布(<https://github.com/indraneel207/RABiTPy>)
 
 # 项目简介
 本项目利用 RABiTPy (Rapid Artificially Intelligent Bacterial Tracker) 工具，对细菌运动视频进行自动化分析与统计，复现原论文中的关键数据图表。
 
 # 项目结构
 
-- `data_for_figures/`       # 存放用于生成图表的原始数据文件
 - `report/`                 # HTML 格式的分析报告目录
   - `Main Results.html`     # 主要结果报告，包含关键指标和可视化
   - `Supp Results.html`     # 补充结果报告，包含附加分析和细节
